@@ -2,6 +2,13 @@
 WoW - Warlords of Draenor Core based on TrinityCore 6.2.4 (fixed compilation errors)
 
 ```shell
+apt-get update
+apt-get install git clang cmake make gcc g++ libmariadbclient-dev libssl-dev libbz2-dev libreadline-dev libncurses-dev libboost-all-dev mariadb-server p7zip libmariadb-client-lgpl-dev-compat
+update-alternatives --install /usr/bin/cc cc /usr/bin/clang 100
+update-alternatives --install /usr/bin/c++ c++ /usr/bin/clang 100
+
+#####################################################################################
+
 apt-get remove libssl-dev
 
 nano /etc/apt/sources.list
