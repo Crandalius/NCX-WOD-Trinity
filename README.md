@@ -11,6 +11,7 @@ sudo adduser wow
 sudo su - wow
 
 git clone https://github.com/nathalis/NCX-WOD-Trinity
+mv NCX-WOD-Trinity/ TrinityCore/
 
 #####################################################################################
 
