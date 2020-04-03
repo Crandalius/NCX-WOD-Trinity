@@ -7,6 +7,11 @@ apt-get install git clang cmake make gcc g++ libmariadbclient-dev libssl-dev lib
 update-alternatives --install /usr/bin/cc cc /usr/bin/clang 100
 update-alternatives --install /usr/bin/c++ c++ /usr/bin/clang 100
 
+sudo adduser wow
+sudo su - wow
+
+git clone https://github.com/nathalis/NCX-WOD-Trinity
+
 #####################################################################################
 
 apt-get remove libssl-dev
